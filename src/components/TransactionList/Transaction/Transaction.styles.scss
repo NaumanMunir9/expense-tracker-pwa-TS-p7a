@@ -1,0 +1,28 @@
+.transaction-container {
+  li {
+    background-color: #23395d;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+
+    &:hover {
+      text-decoration: line-through;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    &.plus {
+      border-right: 10px solid #00ff00;
+      color: whitesmoke;
+    }
+
+    &.minus {
+      border-right: 10px solid #ff3c3c;
+      color: whitesmoke;
+    }
+  }
+}
